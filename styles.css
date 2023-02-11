@@ -1,8 +1,8 @@
 body{
     background-color: black;
     background-image:    linear-gradient(143.9deg, rgba(76, 180, 173, 0.409) 10.68%, rgba(0, 0, 0, 0) 30.51%),
-    linear-gradient(41.54deg, rgba(250, 0, 0, 0.152) 20.05%, rgba(0, 0, 0, 0) 16.12%), 
-    linear-gradient(212.93deg, rgba(250, 0, 0, 0.379) 19.06%, rgba(255, 22, 78, 0) 30.97%),
+    linear-gradient(41.54deg, rgba(250, 0, 0, 0.16) 20.05%, rgba(0, 0, 0, 0) 36.12%), 
+    linear-gradient(212.93deg, rgba(250, 0, 0, 0.379) 9.06%, rgba(255, 22, 78, 0) 30.97%),
     linear-gradient(313.86deg, rgba(76, 180, 173, 0.286) 8.24%, rgba(167, 255, 192, 0) 54.52%) 
    ;
 }
@@ -31,13 +31,14 @@ backdrop-filter: blur(2px);
 border-radius: 5px;
 }
 
-#sub{
+#sub {
     background: #FFFFFF;
     border-radius: 4px;
     padding-left: 6px;
     padding-right: 6px;
 }
 #sub {
+    margin: auto;
     background-color: #ffffff;
     border-radius: 8px;
     border-style: none;
@@ -51,17 +52,13 @@ border-radius: 5px;
     height: 40px;
     line-height: 20px;
     list-style: none;
-    margin: 0;
     outline: none;
     padding: 6px 19px;
     position: relative;
     text-align: center;
     text-decoration: none;
-    transition: color 100ms;
-    vertical-align: baseline;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+    transition: color 200ms;
+
   }
   
   #sub:hover,
@@ -75,3 +72,26 @@ border-radius: 5px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
   }
+
+  #title{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .summa{
+    align-items: center;
+  }
+
+  .hom{
+    text-align: center;
+    width: 600px;
+    height: 200px;
+  }
+
+    #team{
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
+    }
