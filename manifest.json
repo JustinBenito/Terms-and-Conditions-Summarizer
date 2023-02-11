@@ -1,0 +1,11 @@
+{
+    "name": "TAC Summarizer",
+    "version": "1.0.0",
+    "description": "Summarize your Terms and Conditions Easily",
+    "manifest_version": 3,
+    "author": "DARQ Techers",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Summarize Your Terms and Conditions"
+    }
+}
