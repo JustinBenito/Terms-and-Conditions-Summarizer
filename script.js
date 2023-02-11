@@ -1,5 +1,5 @@
 var datum = "";
-const apikey="Your API KEY";
+const apikey = "Your API KEY";
 const fireapi = async () => {
   console.log("Fired");
   var content = document.getElementById("input").value;
