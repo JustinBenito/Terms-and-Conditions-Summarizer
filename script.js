@@ -1,4 +1,5 @@
 var datum = "";
+const apikey="Your API KEY";
 const fireapi = async () => {
   console.log("Fired");
   var content = document.getElementById("input").value;
@@ -7,7 +8,7 @@ const fireapi = async () => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer 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`,
+      Authorization: `Bearer ${apikey}`,
     },
     body: JSON.stringify({
       model: "text-davinci-003",
