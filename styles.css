@@ -65,6 +65,7 @@ border-radius: 5px;
   #sub:focus {
     background-color: #000000;
     color: #ffffff;
+    border: 0.1px solid #FFFFFF;
   }
 
   #done{
