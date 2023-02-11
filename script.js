@@ -7,7 +7,7 @@ const fireapi = async () => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer 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`,
+      Authorization: `Bearer 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`,
     },
     body: JSON.stringify({
       model: "text-davinci-003",
@@ -39,8 +39,9 @@ const fireapi = async () => {
   const summary = data.choices[0].text;
   console.log(summary);
   datum = summary;
-  document.getElementById("input").value = "Points" + summary;
-  document.getElementById("status").innerHTML += "<h1>Done</h1>";
+  document.getElementById("input").value = "Points:" + summary;
+  document.getElementById("status").innerHTML +=
+    '<h1 id="done">😍Summary Generated✨</h1>';
   return summary;
 };
 

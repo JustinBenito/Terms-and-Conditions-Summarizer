@@ -2,19 +2,19 @@ body{
     background-color: black;
     background-image:    linear-gradient(143.9deg, rgba(76, 180, 173, 0.409) 10.68%, rgba(0, 0, 0, 0) 30.51%),
     linear-gradient(41.54deg, rgba(250, 0, 0, 0.152) 20.05%, rgba(0, 0, 0, 0) 16.12%), 
-    linear-gradient(209.93deg, rgba(250, 0, 0, 0.34) 14.06%, rgba(255, 22, 78, 0) 30.97%),
-    linear-gradient(313.86deg, rgba(76, 180, 173, 0.286) 8.24%, rgba(167, 255, 192, 0) 54.52%)
-    
-    
+    linear-gradient(212.93deg, rgba(250, 0, 0, 0.379) 19.06%, rgba(255, 22, 78, 0) 30.97%),
+    linear-gradient(313.86deg, rgba(76, 180, 173, 0.286) 8.24%, rgba(167, 255, 192, 0) 54.52%) 
    ;
 }
 
-
+#space{
+    height: 10px;
+}
 #label{
     color: white;
     font-family: 'Inter', sans-serif;
     text-align: start;
-    
+    font-size: 18px;
 }
 #input{
     padding-top: 10px;
@@ -28,8 +28,50 @@ backdrop-filter: blur(2px);
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     padding: 20px;
- 
-
-
 border-radius: 5px;
 }
+
+#sub{
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#sub {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 6px 19px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  #sub:hover,
+  #sub:focus {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  #done{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+  }
