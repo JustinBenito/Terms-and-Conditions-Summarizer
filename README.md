@@ -27,7 +27,7 @@ this tool is the perfect solution for saving time and making sense of the legal 
 - OpenAI API
 
 # Team 🌟
-- Justin Benito 
-- Rajeswari Dasari
-- JayaVarshini
-- Harshitha G
+- [Justin Benito](https://github.com/JustinBenito)
+- [Rajeswari Dasari](https://github.com/Rajeswari-D)
+- [JayaVarshini](https://github.com/jayavarshiniks)
+- [Harshitha G](https://github.com/HarshithaGnanavel)
